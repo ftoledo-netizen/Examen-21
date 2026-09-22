@@ -1,6 +1,6 @@
 # Examen práctico - Terminal de Expedición Espacial
-# Nombre y apellido:
-# Curso:
+# Nombre y apellido:francisco toledo
+# Curso:2:1
 #
 # IMPORTANTE:
 # Resolver el programa siguiendo las etapas indicadas en el README.md.
@@ -16,8 +16,16 @@
 # Crear las variables necesarias.
 # Crear las listas de destinos y costos.
 # Pedir el nombre del piloto.
-
-
+nombre= "francisco"
+print ("bienbenido francisco")
+print ("tu combustible es 100")
+combustible= 100
+viajes= 3
+viajesluna= 1
+viajesmarte= 1
+viajessaturno= 1
+destinos= ["luna", "marte", "saturno"]
+costos= ["20", "35", "50"]
 # =========================
 # ETAPA 2 - NAVEGACIÓN
 # =========================
