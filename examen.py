@@ -25,15 +25,32 @@ viajesluna= 1
 viajesmarte= 1
 viajessaturno= 1
 destinos= ["luna", "marte", "saturno"]
-costos= ["20", "35", "50"]
+costos= [20, 35, 50]
 # =========================
 # ETAPA 2 - NAVEGACIÓN
 # =========================
 
 # Mostrar el menú y procesar la opción seleccionada.
 # Utilizar las listas para obtener destino y costo.
-
-
+destinouno = input ("selecciona un destino entre la luna, marte o saturno: ")
+if destinouno == "luna":
+    print ("costo= 20")
+elif destinouno == "marte":
+    print("costo= 35")
+else: 
+    print ("costo= 50")
+luna= 20
+marte= 35
+saturno= 50
+if destinouno == "luna":
+    print ("cobustible restante:")
+    print ( combustible - luna) 
+elif destinouno == "marte":
+    print ("cobustible restante:")
+    print(combustible - marte)
+else: 
+    print ("cobustible restante:")
+    print (combustible - saturno)
 # =========================
 # ETAPA 3 - CICLO PRINCIPAL
 # =========================
